@@ -35,9 +35,10 @@ python quant.py --model [MODEL_NAME_OR_PATH] --quant [QUANT_TYPE]--output [OUTPU
 ### (based on 7B model)
 
 | Quantization  | VRAM Required | Recommended GPU |
-| ------------- | ------------- |-----------------|
-| 1-bit  | ~2GB  | A100/A6000                |
-| 2-bit  | ~3GB  |  A100/A6000               |
-| 4-bit  | ~5GB  |  RTX 3090+               |
-| 8-bit  | ~8GB  |  RTX 4090+              |
-| FP16/BF16  | ~14GB  |  A100 40GB             |
+| ------------- | ------------- |-------------|
+| 1-bit  | ~2GB  | A100/A6000  |
+| 2-bit  | ~3GB  | A100/A6000  |
+| 4-bit  | ~5GB  | RTX 3060+   |
+| 8-bit  | ~8GB  | RTX 3060+   |
+| FP16/BF16  | ~14GB  | rtx 3090+   |
+note that cpu can be used recommended gpu is based of acceptable speed
